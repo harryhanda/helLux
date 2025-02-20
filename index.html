@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendy Affiliate Store</title>
+    <link rel="stylesheet" href="style2.css"> 
+</head>
+<body class="light-mode">
+
+    <!-- 🔵 Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+        <a href="#">Contact</a>
+        <button id="themeToggle">Dark Mode</button>
+    </div>
+
+    <!-- 🔥 Hero Section -->
+    <section class="hero">
+        <h1>🔥 Shop the Latest Trends</h1>
+    </section>
+
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="🔍 Search for products..." onkeyup="searchProducts()">
+    </div>
+
+    <!-- 🛍 Featured Products -->
+    <div id="top-products">
+        <h2>Top Selling Products</h2>
+        <div class="product-container"></div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
